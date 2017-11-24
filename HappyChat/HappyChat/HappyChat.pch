@@ -1,0 +1,21 @@
+//
+//  HappyChat.pch
+//  HappyChat
+//
+//  Created by 心冷如灰 on 2017/11/24.
+//  Copyright © 2017年 心冷如灰. All rights reserved.
+//
+
+#ifndef HappyChat_pch
+#define HappyChat_pch
+
+
+
+//#import <Hyphenate/Hyphenate.h>
+#include <Hyphenate/Hyphenate.h>
+
+#import "StaticObjct.h"
+
+
+
+#endif /* HappyChat_pch */

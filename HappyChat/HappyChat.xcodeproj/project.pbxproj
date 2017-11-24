@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1776849D8CA066CB5ED30345 /* libPods-HappyChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C72378064BEED5AAD73B3D /* libPods-HappyChat.a */; };
+		547677951FC7F55100102B68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547677941FC7F55100102B68 /* AppDelegate.m */; };
+		547677981FC7F55100102B68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547677971FC7F55100102B68 /* ViewController.m */; };
+		5476779B1FC7F55100102B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547677991FC7F55100102B68 /* Main.storyboard */; };
+		5476779D1FC7F55100102B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5476779C1FC7F55100102B68 /* Assets.xcassets */; };
+		547677A01FC7F55100102B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5476779E1FC7F55100102B68 /* LaunchScreen.storyboard */; };
+		547677A31FC7F55100102B68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547677A21FC7F55100102B68 /* main.m */; };
+		547677AD1FC7F97800102B68 /* StaticObjct.m in Sources */ = {isa = PBXBuildFile; fileRef = 547677AC1FC7F97800102B68 /* StaticObjct.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46F33253317D35CAF76E584F /* Pods-HappyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyChat/Pods-HappyChat.release.xcconfig"; sourceTree = "<group>"; };
+		547677901FC7F55100102B68 /* HappyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547677931FC7F55100102B68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		547677941FC7F55100102B68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		547677961FC7F55100102B68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		547677971FC7F55100102B68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5476779A1FC7F55100102B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5476779C1FC7F55100102B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5476779F1FC7F55100102B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547677A11FC7F55100102B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547677A21FC7F55100102B68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547677A91FC7F63700102B68 /* HappyChat.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyChat.pch; sourceTree = "<group>"; };
+		547677AB1FC7F97800102B68 /* StaticObjct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticObjct.h; sourceTree = "<group>"; };
+		547677AC1FC7F97800102B68 /* StaticObjct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticObjct.m; sourceTree = "<group>"; };
+		A5C72378064BEED5AAD73B3D /* libPods-HappyChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B5A66FA67BF38AC384CF84 /* Pods-HappyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyChat/Pods-HappyChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5476778D1FC7F55100102B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1776849D8CA066CB5ED30345 /* libPods-HappyChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547677871FC7F55100102B68 = {
+			isa = PBXGroup;
+			children = (
+				547677921FC7F55100102B68 /* HappyChat */,
+				547677911FC7F55100102B68 /* Products */,
+				A8F35554C9AB0659EEFCD694 /* Pods */,
+				DB9E0162A983FFDB973D883E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		547677911FC7F55100102B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547677901FC7F55100102B68 /* HappyChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547677921FC7F55100102B68 /* HappyChat */ = {
+			isa = PBXGroup;
+			children = (
+				547677AB1FC7F97800102B68 /* StaticObjct.h */,
+				547677AC1FC7F97800102B68 /* StaticObjct.m */,
+				547677931FC7F55100102B68 /* AppDelegate.h */,
+				547677941FC7F55100102B68 /* AppDelegate.m */,
+				547677961FC7F55100102B68 /* ViewController.h */,
+				547677971FC7F55100102B68 /* ViewController.m */,
+				547677991FC7F55100102B68 /* Main.storyboard */,
+				5476779C1FC7F55100102B68 /* Assets.xcassets */,
+				5476779E1FC7F55100102B68 /* LaunchScreen.storyboard */,
+				547677A11FC7F55100102B68 /* Info.plist */,
+				547677A21FC7F55100102B68 /* main.m */,
+				547677A91FC7F63700102B68 /* HappyChat.pch */,
+			);
+			path = HappyChat;
+			sourceTree = "<group>";
+		};
+		A8F35554C9AB0659EEFCD694 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B5A66FA67BF38AC384CF84 /* Pods-HappyChat.debug.xcconfig */,
+				46F33253317D35CAF76E584F /* Pods-HappyChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB9E0162A983FFDB973D883E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C72378064BEED5AAD73B3D /* libPods-HappyChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5476778F1FC7F55100102B68 /* HappyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547677A61FC7F55100102B68 /* Build configuration list for PBXNativeTarget "HappyChat" */;
+			buildPhases = (
+				4B2B6B6E71CA1334CAF4F6B6 /* [CP] Check Pods Manifest.lock */,
+				5476778C1FC7F55100102B68 /* Sources */,
+				5476778D1FC7F55100102B68 /* Frameworks */,
+				5476778E1FC7F55100102B68 /* Resources */,
+				DAB1B760F1DB07EC03177115 /* [CP] Embed Pods Frameworks */,
+				1903276BE93CFA83A4827915 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyChat;
+			productName = HappyChat;
+			productReference = 547677901FC7F55100102B68 /* HappyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547677881FC7F55100102B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "心冷如灰";
+				TargetAttributes = {
+					5476778F1FC7F55100102B68 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5476778B1FC7F55100102B68 /* Build configuration list for PBXProject "HappyChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547677871FC7F55100102B68;
+			productRefGroup = 547677911FC7F55100102B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5476778F1FC7F55100102B68 /* HappyChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5476778E1FC7F55100102B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547677A01FC7F55100102B68 /* LaunchScreen.storyboard in Resources */,
+				5476779D1FC7F55100102B68 /* Assets.xcassets in Resources */,
+				5476779B1FC7F55100102B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1903276BE93CFA83A4827915 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyChat/Pods-HappyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2B6B6E71CA1334CAF4F6B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB1B760F1DB07EC03177115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HappyChat/Pods-HappyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5476778C1FC7F55100102B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547677981FC7F55100102B68 /* ViewController.m in Sources */,
+				547677A31FC7F55100102B68 /* main.m in Sources */,
+				547677AD1FC7F97800102B68 /* StaticObjct.m in Sources */,
+				547677951FC7F55100102B68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		547677991FC7F55100102B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5476779A1FC7F55100102B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5476779E1FC7F55100102B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5476779F1FC7F55100102B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547677A41FC7F55100102B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		547677A51FC7F55100102B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547677A71FC7F55100102B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B5A66FA67BF38AC384CF84 /* Pods-HappyChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E76WMGHM83;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = /Users/xinlengruhui/Desktop/HappyChat/HappyChat/HappyChat.pch;
+				INFOPLIST_FILE = HappyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.MaoBuKuaiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3ded994-d7d1-459d-a4d7-a43ac088b8a7";
+				PROVISIONING_PROFILE_SPECIFIER = "Development_ MaoBuKuaiPro";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		547677A81FC7F55100102B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F33253317D35CAF76E584F /* Pods-HappyChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E76WMGHM83;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = /Users/xinlengruhui/Desktop/HappyChat/HappyChat/HappyChat.pch;
+				INFOPLIST_FILE = HappyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.MaoBuKuaiPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b3ded994-d7d1-459d-a4d7-a43ac088b8a7";
+				PROVISIONING_PROFILE_SPECIFIER = "Development_ MaoBuKuaiPro";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5476778B1FC7F55100102B68 /* Build configuration list for PBXProject "HappyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547677A41FC7F55100102B68 /* Debug */,
+				547677A51FC7F55100102B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547677A61FC7F55100102B68 /* Build configuration list for PBXNativeTarget "HappyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547677A71FC7F55100102B68 /* Debug */,
+				547677A81FC7F55100102B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547677881FC7F55100102B68 /* Project object */;
+}
